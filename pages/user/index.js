@@ -1,7 +1,11 @@
+import UserInfo from "../../components/user-info";
+
 const User = () => {
-    return(
-        <h1>USER</h1>
-    );
-}
+  return (
+    <>
+      <UserInfo />
+    </>
+  );
+};
 
 export default User;

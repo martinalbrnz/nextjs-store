@@ -1,0 +1,13 @@
+.topnav {
+    background-color: rgb(172, 186, 255);
+
+}
+.topnav a {
+    text-align: center;
+    padding: 12px 16px;
+    
+}
+
+.footer {
+    background-color: bisque;
+}
