@@ -1,13 +1,31 @@
 .topnav {
-    background-color: rgb(172, 186, 255);
-
+  background-color: rgb(172, 186, 255);
+  box-shadow: 0 2px 4px 0 #00000066;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  top: 0;
+  width: 100%;
+  padding: 1em;
+  height: 3em;
 }
+
 .topnav a {
-    text-align: center;
-    padding: 12px 16px;
-    
+  align-self: center;
+  font-size: 1em;
+  font-weight: 600;
+  height: 3em;
+  padding: 1em 2em;
+}
+
+.topnav a:hover {
+  height: 3em;
+  background-color: rgb(189, 203, 255);
 }
 
 .footer {
-    background-color: bisque;
+  width: 100%;
+  position: absolute;
+  background-color: bisque;
 }

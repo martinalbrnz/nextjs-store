@@ -1,6 +1,6 @@
 const Principles = () => {
   return (
-    <>
+    <div className="principles-container">
       <h3>Mision</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, in
@@ -28,7 +28,7 @@ const Principles = () => {
           aspernatur nemo est dicta, vero eaque!
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

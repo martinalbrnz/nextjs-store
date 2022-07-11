@@ -3,9 +3,9 @@ import Principles from "../components/principles";
 
 export default function Home() {
   return (
-    <>
-      <Featured />
-      <Principles />
-    </>
+      <body>
+        <Featured />
+        <Principles />
+      </body>
   );
 }

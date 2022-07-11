@@ -3,7 +3,7 @@ const UserInfo = () => {
   return (
     <>
       <div>
-        <img src="" alt="user photo" />
+        <img src="https://via.placeholder.com/200" alt="user photo" />
         <h3>User name and last name</h3>
         <p>user email</p>
       </div>

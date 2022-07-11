@@ -13,20 +13,21 @@ const Featured = () => {
   }, []);
 
   return (
-    <>
+    <div className="featured-container">
       {featured?.map((item) => {
         return (
           <>
             <Link href={`/products/${item.id}`}>
-              <div>
-                <h3>{item.product}</h3>
-                <p>${item.price}</p>
+              <div className="featured-item">
+                <img src="https://via.placeholder.com/200" alt="" className="featured-img"/>
+                <p className="featured-name">{item.product}</p>
+                <p className="featured-price">${item.price}</p>
               </div>
             </Link>
           </>
         );
       })}
-    </>
+    </div>
   );
 };
 
